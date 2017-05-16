@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta http-equiv="refresh" content="3" > -->
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Style 1</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Graduate|Questrial|Rajdhani" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- ##### MAIN NAV SECTION ##### -->
+          <!-- <header> -->
+
+              <div style="padding-top: 15px;" class="col-md-5 school-name-container text-center">
+                <h1 class="school-name">Valparaiso Community School</h1>
+                <h3 class="year"><strong>2016-17 Elementary Menu</strong></h3>
+                <br>
+                <h4>All meals include choice of low or fat free milk</h4>
+              </div>
+              <div style="padding-top: 10px;" class="col-md-2 meal-prices-container">
+                <h4 class="prices">Lunch: <span class="price-figure">&#36; 2.35</span></h4>
+                <h5 class="r-price">Reduced Price: <span class="price-figure">&#36; .40</span></h5>
+                <h4 class="prices">Breakfast: <span class="price-figure">&#36; 1.40</span></h4>
+                <h5 class="r-price">Reduced Price: <span class="price-figure">&#36; .30</span></h5>
+                <h5 class="prices" style="margin-top: 35px;">Milk Only: <span class="price-figure">&#36; .55</span></h5>
+              </div>
+              <div class="col-md-2 school-info-container">
+                <h6>Visit the Skyward Parent Portal to check your child's cafeteria balance, make online deposits to their account, apply for free and reduced price meals and much more! www.valpo.k12.in.us</h6>
+              </div>
+
+            <div class="col-md-3 school-img-container">  </div>
+
+
+          <!-- </header> -->
+        </div> <!-- row -->
+        <!-- Main Nav Section -->
+
+        <!-- MIDDLE SECTION -->
+        <div class="row">
+          <div class="col-md-9 well meal-period">
+            <div class="col-md-6 menu-button text-center">
+              <div id="breakfast-btn" class="newBreakfastButton btn">
+              	<button><a >Breakfast</a></button>
+              </div>
+              <div id="lunch-btn" class="newBreakfastButton btn">
+                <button><a >Lunch</a></button>
+              </div>
+            </div>
+
+            <!-- #######################  BREAKFAST CALENDARS#################################### -->
+            <div id="breakfast" class="breakfast-container ">
+                <div class="col-md-6 menu-button text-right">
+                  <div id="month-button-br" class="newBreakfastButton btn col-md-4">
+                    <button><a >Month</a></button>
+                  </div>
+                  <div id="week-button-br" class="newBreakfastButton btn col-md-4">
+                    <button><a >Week</a></button>
+                  </div>
+                  <div id="day-button-br" class="newBreakfastButton btn col-md-4">
+                    <button><a >Day</a></button>
+                  </div>
+                </div>
+              <div id='calendars' class="col-md-12 well" style="margin-bottom: 0;">
+                <div class="text-center">
+                  <h1 style="text-decoration: underline; font-family: 'Graduate', cursive;">Breakfast</h1>
+                </div>
+
+                <div id="calendar-month-breakfast-year" class="calendar-month-year" ></div>
+                <!-- Monthly Calendar -->
+                <div  id="calendar-dates-breakfast-month" class="calendar-dates  "></div>
+                <!-- Week Calendar -->
+                <div id="calendar-dates-breakfast-week" class="calendar-dates"></div>
+                  <!-- Daily Calendar -->
+                <div id="calendar-dates-breakfast-day" class="calendar-dates "></div>
+
+              </div>
+            </div>
+              <!-- #######################  LUNCH CALENDARS ############################ -->
+              <div id='lunch' class="lunch-container" style="display: none;">
+                <div class="col-md-6 menu-button text-right">
+                  <div id="month-button" class="newBreakfastButton btn col-md-4">
+                    <button><a >Month</a></button>
+                  </div>
+                  <div id="week-button" class="newBreakfastButton btn col-md-4">
+                    <button><a >Week</a></button>
+                  </div>
+                  <div id="day-button" class="newBreakfastButton btn col-md-4">
+                    <button><a >Day</a></button>
+                  </div>
+                </div>
+              <div id='calendars' class="col-md-12 well" style="margin-bottom: 0;">
+                <div class="text-center">
+                  <h1 style="text-decoration: underline; font-family: 'Graduate', cursive;">Lunch</h1>
+                </div>
+              <!-- ##########MONTHLY CALENDAR########## -->
+                <div id="calendar-month-lunch-year" class="calendar-month-year"></div>
+                <div id="calendar-dates-lunch-month" class="calendar-dates"></div>
+                <div id="calendar-dates-lunch-week" class="calendar-dates"></div>
+                <div id="calendar-dates-lunch-day" class="calendar-dates"></div>
+
+              </div>
+            </div>
+             <!-- ######################################################################### -->
+
+          </div>
+
+
+          <div class="col-md-3 well info-section">
+            <div class="info-text-block">
+              <h3 class="info-title">Be a culinary explorer!</h3>
+               <div class="clearfix"><img class="firstImage" src="https://cdn.pixabay.com/photo/2013/07/12/14/30/farmer-148325_960_720.png">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                <br>
+                <div class="clearfix"><img class="secondImage" src="https://images.pexels.com/photos/6342/woman-notebook-working-girl.jpg?w=940&h=650&auto=compress&cs=tinysrgb" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                <br>
+                <div class="clearfix"><img class="thirdImage" src="https://images.pexels.com/photos/261895/pexels-photo-261895.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+            </div>
+          </div>
+
+        </div>
+        <!-- Middle Seciton -->
+
+
+    </div>  <!-- container-fluid -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+   <script src="js/main.js" type="text/javascript"></script>
+   <script src="js/breakfast.js" type="text/javascript"></script>
+   <script src="js/lunch.js" type="text/javascript"></script>
+
+
+
+  </body>
+</html>
