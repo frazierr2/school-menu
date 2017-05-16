@@ -445,3 +445,46 @@ button a:hover{
   float: right;
   font-family: 'Rajdhani', sans-serif;
 }
+.paragraph{
+  font-size: 1.25vw;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1280px){
+  .school-info-container h6{
+    font-size: 1.3vw;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+  #month-button button,
+  #day-button button,
+  #week-button button,
+  #month-button-br button,
+  #day-button-br button,
+  #week-button-br button{
+    width: 100%;
+  }
+  #breakfast-btn,
+  #lunch-btn{
+    width: 45%;
+  }
+  #breakfast-btn button,
+  #lunch-btn button{
+    width: 100%;
+  }
+  .school-info-container h6{
+    font-size: 1.3vw;
+  }
+  .table-style th{
+    font-size: 18px;
+  }
+  .table-style h5{
+    font-size: 22px;
+  }
+  .table-style td h6{
+    font-size: 17px;
+  }
+  .year{
+    font-size: 1.6vw;
+  }
+}
